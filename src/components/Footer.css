@@ -1,0 +1,111 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.track{
+    display: flex;
+    gap: 20px;
+}
+.disc{
+    display: flex;
+    gap: 20px;
+}
+.support{
+    display: flex;
+    gap: 20px;
+}
+.pay{
+    display: flex;
+    gap: 20px;
+}
+.footer i{
+    font-size: 30px;
+    margin-top: 6px;
+}
+/*                            footer2 design  css           */
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.about-content{
+    padding: 10px 1px;
+    align-items: center;
+}
+.textt {
+    max-width: 500px;
+    /* text-align: left; */
+}
+
+.btnn{
+    background-color: #4CAF50;
+    margin: 40px 0px;
+    padding: 5px;
+}
+.textt h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.textt p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+section{
+    display: flex;
+    gap: 20px;
+}
+
+.Flink{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 20px;
+    text-align: left;
+}
+.Flink a{
+    color: rgb(191, 201, 209);
+   
+}
+.Flink a:hover{
+    color: #0dc1d4;
+}
+.supportt{
+    flex-direction: column;
+}
+.Slink{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.Slink a{
+    color: rgb(191, 201, 209);
+}
+.Slink a:hover{
+    color: #0dc1d4;
+}
+
+/*                                    footer3 design css            */
+.footer3{
+    height: 14vh;
+    background-color: aliceblue;
+    color: #020e23;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.copy{
+    width: 40%;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    font-size: 30px;
+    justify-content: end;
+}

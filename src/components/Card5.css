@@ -1,0 +1,38 @@
+
+.card5{
+    display: flex;
+    flex-direction: row;
+    margin: 13px;
+    gap: 12px;
+    margin-top: 30px;
+}
+.textbook{
+    width: 29%;
+    height: 32vh;
+    border-radius: 20px;
+    background-size: cover;
+    cursor: pointer;
+}
+.childbook{
+    width: 20%;
+    height: 32vh;
+    border-radius: 20px;
+    background-size: cover;
+    cursor: pointer;
+}
+.acbook{
+    width: 20%;
+    height: 32vh;
+    border-radius: 20px;
+    background-size:cover;
+    background-position: 20%;
+}
+.sta{
+    width: 29%;
+    height: 32vh;
+    border-radius: 20px;
+    background-size: cover;
+}
+hr{
+    margin-top: 80px;
+}

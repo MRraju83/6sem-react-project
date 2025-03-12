@@ -1,0 +1,35 @@
+.card3{
+    width: 98%;
+    height: 48vh;
+    background-color: #1c0b5a;
+    margin: 10px 14px;
+    border-radius: 20px;
+}
+.card3 h3{
+    margin-left: 20px;
+    font-size: 20px;
+    font: optional;
+}
+.card3-imgg{
+    display: flex;
+    overflow-x: auto;
+}
+.card3-img{
+    width: 200px;
+    flex-shrink: 0;
+    height: 42vh;
+    margin: 10px;
+    border: 2px solid darkblue;
+    border-radius: 12px;
+    /* background-size: contain; */
+}
+.card3-img img{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px 10px 0px 0px;
+    padding: 8px;
+
+}
+.card3-img:hover img{
+    padding: 0px;
+}

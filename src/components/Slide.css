@@ -1,0 +1,50 @@
+
+.slid {
+    margin: 30px 7px;
+    position: relative;
+    width: 99.5%;
+    height: 47vh;
+    background-color: #444652;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.image-box {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    transition: 1s ease;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(to left, #46b18e, #737bac);
+    color: white;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow:inset 1px 10px 10px 1px rgb(66, 66, 167);
+}
+
+.btn-left {
+    left: 10px;
+    
+}
+
+.btn-right {
+    right: 10px;
+}
