@@ -1,8 +1,13 @@
 import './LoginPage.css';
+import { Link , useNavigate} from 'react-router-dom';
 function LoginPage() {
+    const navigate = useNavigate();
+    const gotoMain = ()=>{
+        navigate("/");
+    }
   return (
-    <div>
-        <div className="container" id="cont">
+        <div id="container">
+            <div className="container" id="cont">
             <div className="left-panel">
                 <span className="B">B</span><span id="b">Book <i class="fa-solid fa-book-open-reader"></i></span>
                 <ul>
@@ -18,7 +23,7 @@ function LoginPage() {
                 <img className="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGUEg5KVxtw-XtOE1bSeEhnnqhTU7RPsiKyg&s" alt="Online Image"/>
             </div>
             <div className="right-panel">
-                <span className="x" onClick="xx()"><a href=''>X</a></span>
+                <span className="x" onClick={gotoMain}><a href=''>X</a></span>
                 <h2>Login</h2>
                 <div className="input-box">
                     <label for="username">&#128100;</label>
@@ -32,9 +37,13 @@ function LoginPage() {
                     <label for="password">&#128274;</label>
                     <input type="password" id="password" placeholder="Password"/>
                 </div>
-                <a href="forgetpage.htm"><div className="forgot-password">Forgot Password?</div></a>
+                <div className="forgot-password">Forgot Password?
+                    <Link to="/forget">Click Here</Link>
+                </div>
                 <button className="login-btn">Login</button>
-                <div className="signup-link">Don't have an account? <a href="Signup.htm">Sign Up</a></div>
+                <div className="signup-link">Don't have an account?
+                    <Link to="/signup">Sign Up</Link>
+                </div>
             </div>
         </div>
     </div>

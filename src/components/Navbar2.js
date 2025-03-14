@@ -19,11 +19,11 @@ function Navbar2(){
                     <i className="fa-solid fa-magnifying-glass"></i>
                 <input type="text" placeholder="Search for products, brands and more"/>
                 </div>
-                {/* <div className="hm">
-                    <Link to="/LoginPage">
+                <div className="hm">
+                    <Link to="/Login">
                         <button>Login</button>
                     </Link>
-                </div> */}
+                </div>
             </nav>
         </div>
     )

@@ -72,14 +72,13 @@ a {
 /*                  css for navbar2 design          */
 
 
-.navbar2 {
+/* .navbar2 {
     display: flex;
     justify-content: space-between;
     background-color: #1f1839;
     color: white;
     padding: 0px 20px;
     align-items: center;
-    /* flex-wrap: wrap; */
 }
 .brows {
     display: flex;
@@ -107,7 +106,6 @@ a {
     background-color: aliceblue;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
-    /* width: 100%; */
     width: 680px;
     margin: 10px 0;
 }
@@ -135,13 +133,13 @@ a {
 }
 .hm i{
     cursor: pointer;
-}
+} */
 
 
 
 /*                css for image sild design */
 
-.slid {
+/* .slid {
     margin: 30px 7px;
     position: relative;
     width: 99.5%;
@@ -189,11 +187,11 @@ a {
 
 .btn-right {
     right: 10px;
-}
+} */
 
 /*               css for card1 design        */
 
-.card{
+/* .card{
     width: 98%;
     height: 45vh;
     background-color: #1c0b5a;
@@ -261,15 +259,12 @@ a {
     margin-left: 5px;
 }
     /*                                css for card2 design        */
-    .card2{
+    /* .card2{
         width: 98%;
         height: 50vh;
         background-color:#1c0b5a;
         margin: 10px 14px;
         border-radius: 20px;
-        /* overflow: hidden;
-        position: relative; */
-        /* padding: 10px; */
     }
     .card2 h3{
         margin-left: 20px;
@@ -280,8 +275,6 @@ a {
         align-items: center;
         overflow-x: auto;
         scroll-behavior: smooth;
-        /* white-space: nowrap; */
-        /* scroll-snap-type: x mandatory; */
     }
     .card2-img{
         width: 200px;
@@ -303,11 +296,10 @@ a {
     .cart-img2, p, span{
         color:rgb(161, 133, 133);
         margin-left: 5px;
-    }
-
+    } */
 
 /*                                   css for card3 design        */
-.card3{
+/* .card3{
     width: 98%;
     height: 48vh;
     background-color: #1c0b5a;
@@ -317,7 +309,6 @@ a {
 .card3 h3{
     margin-left: 20px;
     font-size: 20px;
-    font: optional;
 }
 .card3-imgg{
     display: flex;
@@ -330,7 +321,6 @@ a {
     margin: 10px;
     border: 2px solid darkblue;
     border-radius: 12px;
-    /* background-size: contain; */
 }
 .card3-img img{
     width: 100%;
@@ -341,11 +331,11 @@ a {
 }
 .card3-img:hover img{
     padding: 0px;
-}
+} */
 
 
 /*                      css  for  card4 design        */
-.card4{
+/* .card4{
     width: 98%;
     height: 48vh;
     background-color: #1c0b5a;
@@ -377,11 +367,11 @@ a {
 }
 .card4-img:hover img{
     padding: 0;
-}
+} */
 /*                 css for card5 design      */
 
 
-.card5{
+/* .card5{
     display: flex;
     flex-direction: row;
     margin: 13px;
@@ -417,13 +407,13 @@ a {
 }
 hr{
     margin-top: 80px;
-}
+} */
 
 
 
 /*                                       css for footer design            */
 
-.footer{
+/* .footer{
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
@@ -448,8 +438,10 @@ hr{
     font-size: 30px;
     margin-top: 6px;
 }
+
+
 /*                            footer2 design  css           */
-.footer2{
+/* .footer2{
     display: flex;
     justify-content: space-around;
     margin: 30px;
@@ -460,7 +452,6 @@ hr{
 }
 .textt {
     max-width: 500px;
-    /* text-align: left; */
 }
 
 .btnn{
@@ -510,10 +501,10 @@ section{
 }
 .Slink a:hover{
     color: #0dc1d4;
-}
+} */
 
 /*                                    footer3 design css            */
-.footer3{
+/* .footer3{
     height: 14vh;
     background-color: aliceblue;
     color: #020e23;
@@ -533,4 +524,4 @@ section{
 .social{
     font-size: 30px;
     justify-content: end;
-}
+} */
