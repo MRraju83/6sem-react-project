@@ -23,7 +23,9 @@ function Navbar2(){
                     <Link to="/Login">
                         <button>Login</button>
                     </Link>
-                    
+                    <Link to="/profile">
+                        <button>Profile</button>
+                    </Link>
                 </div>
             </nav>
         </div>

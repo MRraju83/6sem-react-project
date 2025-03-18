@@ -1,6 +1,7 @@
 import Navber3 from "./Navber3";
 import b1 from '../images/b1.jpg';
 import b3 from '../images/b3.jpg';
+import { Link } from 'react-router-dom';
 import './Orders.css';
 function Oders() {
     return (
@@ -64,7 +65,9 @@ function Oders() {
                             <span className="sp">Total Amount:</span>
                             <span>₹255</span>
                         </div>
-                        <button className="order-btn" onClick="Openp()">Order</button>
+                        <Link to="/payment">
+                        <button className="order-btn">Order</button>
+                        </Link>
                     </div>
                 </div>
                 <div className="immg2">

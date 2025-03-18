@@ -20,6 +20,16 @@ function BuyBook(){
     const changeImage = (image) => {
         setLargeImage(image);
     }
+    const mess = () => {
+        const userChoice = window.confirm("Do you want to go to Cart?");
+        
+        if (userChoice) {
+            alert("Going to Cart...");
+            // You can navigate to the Cart page using React Router if needed
+        } else {
+            alert("Staying here...");
+        }
+    }
     return(
         <div>
             <div className="main" id="main">
@@ -45,7 +55,7 @@ function BuyBook(){
                     </div>
                         <div className="btan">
                             <Link to="/Address"><button>Buy Now</button></Link>
-                            <Link to="/Cart"><button>Add to Cart</button></Link>
+                            <Link to="/Cart" onClick={mess}><button>Add to Cart</button></Link>
                         </div>
                     </div>
                     <div className="byd">

@@ -16,7 +16,8 @@ import Forget from "./components2/Forget";
 import BuyBook from "./components2/BuyBook";
 import Address from "./components2/Address";
 import Oders from "./components2/Orders";
-
+import Payment from "./components2/Payment";
+import Profile from "./components3/Profile";
 
 function MainPage(){
   return(
@@ -59,6 +60,12 @@ function App() {
 
         {/* Route for the orders page (without other components) */}
         <Route path="/Order" element={<Oders />} />
+
+        {/* Route for the payment page (without other components) */}
+        <Route path="/Payment" element={<Payment/>} />
+
+        {/* Route for the profile page (without other components) */}
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );
