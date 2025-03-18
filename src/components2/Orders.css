@@ -1,0 +1,216 @@
+.container1{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.cont{
+    height: auto;
+    margin: 15px 80px;
+}
+.header{
+    font-size: 24px;
+    display: flex;
+    gap: 15px;
+    color:rgb(134, 25, 167);
+}
+.order-details{
+    display: grid;
+    font-size: 18px;
+    margin: 10px 10px;
+    color: #00bcd4;
+}
+.order-detailss{
+   display: flex;
+   margin: 10px 10px;
+}
+.order-detailss img{
+    border: 2px solid #0dc1d4;
+    border-radius: 10px;
+    height: 180px;
+}
+.order-detailsss{
+    margin: 10px 10px;
+    color: white;
+}
+.order-detailsss span{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+}
+.rating{
+    font-size: 12px;
+}
+.pp p{
+    display: flex;
+    gap: 5px;
+}
+.quantity{
+    border: 2px solid white;
+    width: fit-content;
+    margin: -6px 15px;
+    color: white;
+}
+.quantity label{
+    font-size: 20px;
+    
+}
+.quantity select{
+    padding: 4px;
+    width: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    background: transparent;
+}
+.p{
+    margin: 15px 15px;
+    display: grid;
+    gap: 10px;
+}
+.express-delivery {
+    color: #00bcd4;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.bank-offers {
+    color: #ff9966;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.price-details{
+    color: white;
+    margin: 10px 10px;
+    width: 280px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 14px;
+    margin: 5px 0;
+}
+.sp{
+    color: red;
+}
+.order-btn {
+    background-color: #00b4d8;
+    color: white;
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 85px;
+}
+.immg2 img{
+    margin: 50px 150px;
+    width: 80%;
+    height: 50%;
+}
+.cont3{
+    background: white;
+    padding: 20px;
+    position: absolute;
+    display: none;
+    top: 35%;
+    left: 36%;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.cont3-d{
+    display: flex;
+    justify-content: space-between;
+}
+.cont3 h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.payment-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.payment-option:hover {
+    background: #f5f5f5;
+}
+
+.payment-option img {
+    width: 25px;
+    height: auto;
+}
+
+.payment-option span {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+.selected {
+    border-color: #4CAF50;
+    background: #e8f5e9;
+}
+
+.selected::after {
+    content: "✔";
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.next-button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.next-button:hover {
+    background: #0056b3;
+}
+
+.conf{
+    background-color: white;
+    width: 18%;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    height: 20vh;
+    border-radius: 20px;
+    display: none;
+}
+.conf h2{
+    color:#090324;
+    font-size: 20px;
+    position:relative;
+    left: 40px;
+}
+.conf span{
+    position: relative;
+    top: 40px;
+    left: 100px;
+    font-size: 50px;
+    background-color: #090324;
+    color:white;
+    padding: 10px;
+    border-radius: 100%;
+}

@@ -5,6 +5,7 @@ import b2 from '../images/b2.jpg';
 import b3 from '../images/b3.jpg';
 import b4 from '../images/b4.jpg';
 import b5 from '../images/b5.jpg';
+import { Link } from 'react-router-dom';
 function Card1() {
   return (
     <div>
@@ -18,7 +19,9 @@ function Card1() {
         <div className="cart-img">
             {/* <button class="butt butt-right">&#10094;</button> */}
             <div className="cart-img1">
-                <a href="LoginPage.js"><img src={b1} alt=""/></a>
+               <Link to="/BuyBook">
+                <img src={b1} alt=""/>
+               </Link>
                 <p>The martin:</p>
                 <span>Price: 240/only</span>
             </div>

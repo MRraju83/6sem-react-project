@@ -13,6 +13,9 @@ import Footer from "./components/Footer";
 import LoginPage from "./components2/LoginPage";  
 import Signup from "./components2/Signup";
 import Forget from "./components2/Forget";
+import BuyBook from "./components2/BuyBook";
+import Address from "./components2/Address";
+import Oders from "./components2/Orders";
 
 
 function MainPage(){
@@ -47,6 +50,15 @@ function App() {
 
         {/* Route for the forget password page (without other components) */}
         <Route path="/forget" element={<Forget />} />
+
+        {/* Route for the buy book page (without other components) */}
+        <Route path="/BuyBook" element={<BuyBook />} />
+
+        {/* Route for the address page (without other components) */}
+        <Route path="/Address" element={<Address />} />
+
+        {/* Route for the orders page (without other components) */}
+        <Route path="/Order" element={<Oders />} />
       </Routes>
     </BrowserRouter>
   );

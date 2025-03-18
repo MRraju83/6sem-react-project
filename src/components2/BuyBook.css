@@ -1,0 +1,124 @@
+body{
+    background-color: #090324;
+}
+.buy{
+    display: flex;
+}
+.allD{
+    width: 550px;
+    height: 65vh;
+    margin: 30px 90px;
+    border: 2px solid blue;
+    display: flex;
+    border-radius: 20px;
+}
+.img1{
+    width: 130px;
+    height: 15vh;
+    position: relative;
+    top: 10px;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 20px;
+    background-color: rebeccapurple;
+    border-radius: 20px;
+}
+.img1:hover img{
+    border: 2px solid white;
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.bigimg{
+    width: 500px;
+    height: 45vh;
+    background-color: aliceblue;
+    margin: 20px 40px;
+    border-radius: 20px;
+}
+.bigimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.btan{
+    position: relative;
+    top: -110px;
+    left: 330px;
+    display: flex;
+    gap: 35px;
+}
+.btan button{
+    padding: 5px;
+    width: 100px;
+    background-color: black;
+    outline: none;
+    border: none;
+    color:rgb(10, 63, 169);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.byd{
+    position: relative;
+    left: -50px;
+    top: 25px;
+}
+.dd{
+   display: grid;
+   gap: 7px;
+}
+.pp{
+    position: relative;
+    top: 20px;
+}
+.pp span{
+    padding: 6px;
+}
+.qq{
+    position: relative;
+    top: 90px;
+}
+.boox{
+    width: 550px;
+    height: 15vh;
+    border: 2px solid black;
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+.boox img{
+    width: 100%;
+    height: 100%;
+}
+.DB{
+    margin: 0px 20px;
+    display: grid;
+    gap: 5px;
+}
+.RR{
+    margin: 10px 20px;
+    display: grid;
+    gap: 10px;
+}
+.Rating img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/*                          Responsive design here                              */
+@media (max-width: 970px) {
+    .B{
+        margin-left: -120px;
+        color: #090324;
+    }
+}
+@media (max-width: 630px) {
+    .B{
+        margin-left: -150px;
+        color: #090324;
+    }
+}

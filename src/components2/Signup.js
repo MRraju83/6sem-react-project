@@ -28,23 +28,23 @@ function Signup() {
             <span className="x" onClick={gotoLogin}>X</span>
             <h2>Sign Up</h2>
             <div className="input-box">
-                <i className="fas fa-user"></i>
+                <label for="username">&#128100;</label>
                 <input type="text" placeholder="Username"/>
             </div>
             <div className="input-box">
-                <i className="fas fa-envelope"></i>
+                <label for="email">&#128274;</label>
                 <input type="email" placeholder="Email"/>
             </div>
             <div className="input-box">
-                <i className="fas fa-phone"></i>
+                <label fo="mobile">&#128241;</label>
                 <input type="text" placeholder="Mobile number"/>
             </div>
             <div className="input-box">
-                <i className="fas fa-lock"></i>
+                <label for="password">&#128274;</label>
                 <input type="password" placeholder="Password"/>
             </div>
             <div className="input-box">
-                <i className="fas fa-lock"></i>
+                <label for="password">&#128274;</label>
                 <input type="password" placeholder="Confirm password"/>
             </div>
             <button className="login-btn">Sign in</button>
