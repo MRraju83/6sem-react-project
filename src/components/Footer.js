@@ -79,11 +79,11 @@ function Footer() {
             <div className="footer-content">
                 <h3>Join our other Community for information</h3>
             <div className="social">
-                {/* <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-linkedin"></i> */}
+                <i className="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-github"></i>
+                <i className="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-linkedin"></i>
             </div>
             </div>
         </div>
