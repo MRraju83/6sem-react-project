@@ -64,7 +64,7 @@
     width: 400px;
     padding: 40px;
     border-radius: 10px;
-    margin: -300px 450px;
+    margin: -300px 500px;
     height: fit-content;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -122,4 +122,96 @@ input[type="radio"] {
 }
 .edit-field .edit-btn{
     margin-left: -30px;
+}
+#bbt{
+    padding: 10px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #0dc1d4;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #ddd;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+
+
+.order{
+    width: 66%;
+    height: fit-content;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    padding: 8px;
+    border: 1px solid #00bcd4;
+    border-radius: 5px;
+}
+.book-item1{
+    display: flex;
+    gap: 20px;
+    background-color: #090324;
+    padding: 8px;
+    border-radius: 10px;
+}
+.book-item1 img{
+    width: 75px;
+}
+.book-info {
+    flex: 1;
+}
+
+.book-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.book-author {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.book-price {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #ffcc00;
+}
+
+.book-rating {
+    color: orange;
+    font-size: 14px;
+}
+
+.qty-select {
+    background: #f4f4f4;
+    border: none;
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.book-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stock-info {
+    font-size: 12px;
+    color: #8de4ff;
+}
+.book-info button{
+    margin: 30px 10px;
+}
+.cart{
+    width: 46%;
+    height: fit-content;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    padding: 10px;
+    border: 1px solid #00bcd4;
+    border-radius: 5px;
 }
